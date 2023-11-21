@@ -1,0 +1,26 @@
+footer {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+footer .logo {
+  text-align: center;
+}
+footer h5 {
+  font-size: 11px;
+}
+footer .copyrighte {
+  line-height: 3;
+}
+
+/* ************* MEDIA QUERIES (SMALL SCREEN ) ************** */
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 0.4rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .copyrighte {
+    line-height: 1.7;
+  }
+}

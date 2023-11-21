@@ -1,0 +1,45 @@
+.about {
+  display: flex;
+  justify-content: center;
+}
+.about .meImage {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 3rem;
+}
+.about .meImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3rem;
+}
+.about .aboutInfo {
+  width: 45%;
+  height: 100%;
+  margin: auto;
+}
+.about .aboutInfo h2 {
+  font-weight: bold;
+}
+
+/* ************* MEDIA QUERIES (MEDUIM SCREEN ) ************** */
+@media screen and (max-width: 992px) {
+  .about {
+    flex-direction: column;
+  }
+  .about .meImage {
+    width: 80%;
+  }
+  .about .aboutInfo {
+    width: 90%;
+  }
+}
+
+/* ************* MEDIA QUERIES (SMALL SCREEN ) ************** */
+@media screen and (max-width: 600px) {
+  .about .meImage {
+    width: 98%;
+  }
+  .about .aboutInfo {
+    width: 98%;
+  }
+}
